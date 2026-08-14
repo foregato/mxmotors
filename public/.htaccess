@@ -1,0 +1,30 @@
+# 1. Definição do Charset UTF-8 (Resolve aviso de Content-Type/Charset)
+AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+  AddCharset UTF-8 .html .css .js .xml .json .rss
+</IfModule>
+
+# 2. Cabeçalhos de Segurança (Resolve todos os avisos de "Security: Missing...")
+<IfModule mod_headers.c>
+  # Proteção contra Clickjacking (X-Frame-Options)
+  Header set X-Frame-Options "SAMEORIGIN"
+
+  # Proteção contra Sniffing de tipo MIME (X-Content-Type-Options)
+  Header set X-Content-Type-Options "nosniff"
+
+  # Política de Referrer segura (Referrer-Policy)
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Força conexão segura via HTTPS por 1 ano (HSTS)
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# 3. Suporte ao React Router (Evita Erro 404 ao atualizar páginas como /sobre ou /contato)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>

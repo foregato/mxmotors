@@ -1,0 +1,19 @@
+PASTA DE FOTOS DO COMPARADOR
+============================
+
+Coloque aqui os arquivos de imagem específicos para o Comparador
+(diferentes das fotos principais usadas no Catálogo/Produto, quando desejar).
+
+Sugestão de nome de arquivo:
+  comparador-<ID_DO_PRODUTO>.jpg
+  (ex.: comparador-1.jpg, comparador-5.png)
+
+Depois de colocar o arquivo aqui, associe-o ao produto editando:
+  src/data/comparadorImagens.js
+
+Exemplo de associação:
+  1: '/imagens/comparador/comparador-1.jpg',
+
+Se um produto não tiver uma foto cadastrada aqui, o Comparador usa
+automaticamente a primeira foto já cadastrada no catálogo (produtos.json).
+Nenhuma foto fictícia é necessária.

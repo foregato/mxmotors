@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "nome": "Mini Moto 125cc 12x Sem Juros",
+    "marca": "Quadrimotors",
+    "modelo": "Mini Moto 125cc",
+    "ano": 2026,
+    "motor": "Monocilíndrico, 4 tempos, 125cc, semi-automático",
+    "cilindrada": "125cc",
+    "tracao": "Traseira",
+    "combustivel": "Gasolina",
+    "cor": "Branco e Verde",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 11.900,00",
+    "precoAntigo": "R$ 12.990,00",
+    "parcelaPromo": "12x R$ 999,00",
+    "descricao": "Mini Moto 125cc modelo infanto-juvenil, ideal para crianças e adolescentes. Equipada com partida elétrica e pedal de partida (manual), motor 4 tempos semi-automático, freio a disco duplo, suspensão dianteira invertida e suspensão traseira Prolink roscado, proporcionando mais conforto e estabilidade. Atinge velocidade de até 60 km/h e suporta pilotos de até 100 kg. Condição especial: R$ 12.990,00 ou em até 12x sem juros no cartão.",
+    "imagens": [
+      "/imagens/brancoverdemoto_0.jpeg",
+      "/imagens/medidabrancoverde.jpeg"
+    ],
+    "badge": "Oportunidade",
+    "cores": [
+      {
+        "nome": "Branco e Verde",
+        "hex": "#EDEDED",
+        "imagens": [
+          "/imagens/brancoverdemoto_0.jpeg",
+          "/imagens/medidabrancoverde.jpeg"
+        ]
+      },
+      {
+        "nome": "Preto com Vermelho e Verde",
+        "hex": "#1A1A1A",
+        "imagens": [
+          "/imagens/minimoto125vermelho_0.jpeg",
+          "/imagens/minimoto125vermelho_1.jpeg",
+          "/imagens/medidasminimoto125vermelho.jpeg"
+        ]
+      }
+    ]
+  },
+   {
+    "id": 2,
+    "nome": "Quadriciclo 125cc",
+    "marca": "Quadrimotors",
+    "modelo": "125cc",
+    "ano": 2026,
+    "motor": "4 tempos, refrigerado a ar, OHC",
+    "cilindrada": "125 cc",
+    "tracao": "4x2 traseira",
+    "combustivel": "Gasolina",
+    "cor": "Verde",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 11.900,00",
+    "descricao": "Quadriciclo 125cc, equipado com motor de 4 tempos, refrigerado a ar com partida elétrica, câmbio automático com ré e acelerador tipo gatilho. Possui transmissão por corrente, tração 4x2 traseira, suspensão dianteira independente com bandeja dupla e suspensão traseira independente com monoshock. Conta com freios dianteiros a tambor duplo e traseiro a disco, chassi tubular em aço, ignição eletrônica CDI e bateria 12V 6,5Ah. Velocidade máxima de até 70 km/h. Valor de R$ 11.900,00 à vista ou em até 12x de R$ 999,00 no cartão de crédito. Entre em contato pelo WhatsApp.",
+    "imagens": [
+      "/imagens/verde125cc_0.png",
+      "/imagens/verde125cc_1.png",
+      "/imagens/verde125cc_2.png",
+      "/imagens/verde125cc_3.jpg"
+    ],
+    "cores": [
+      {
+        "nome": "Verde",
+        "hex": "#2F6B3A",
+        "imagens": [
+          "/imagens/verde125cc_0.png",
+          "/imagens/verde125cc_1.png",
+          "/imagens/verde125cc_2.png",
+          "/imagens/verde125cc_3.jpg"
+        ]
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#B31F1F",
+        "imagens": [
+          "/imagens/vermelho125cc_0.png",
+          "/imagens/vermelho125cc_1.png",
+          "/imagens/vermelho125cc_2.png",
+          "/imagens/vermelho125cc_3.png"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Quadriciclo Infantil Elétrico 1000W",
+    "marca": "Quadrimotors",
+    "modelo": "Infantil 1000W",
+    "ano": 2026,
+    "motor": "Elétrico 1000W",
+    "cilindrada": "Elétrico",
+    "tracao": "Traseira",
+    "combustivel": "Bateria Elétrica",
+    "cor": "Branco",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 6.490,00",
+    "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
+    "imagens": [
+      "/imagens/quadrivermelho1000w.png",
+      "/imagens/frentevermelho.png"
+    ],
+    "cores": [
+      {
+        "nome": "Vermelho",
+        "hex": "#C41E1E",
+        "imagens": [
+          "/imagens/quadrivermelho1000w.png",
+          "/imagens/frentevermelho.png"
+        ]
+      },
+      {
+        "nome": "Branco",
+        "hex": "#EDEDED",
+        "imagens": [
+          "/imagens/quadribranco1000w.png"
+        ]
+      },
+      {
+        "nome": "Preto com Detalhes em Verde",
+        "hex": "#1A1A1A",
+        "imagens": [
+          "/imagens/quadri1000w6490.jpeg",
+          "/imagens/quadri1000w6490_2.png"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Quadriciclo Elétrico 1500W",
+    "marca": "Quadrimotors",
+    "modelo": "1500W",
+    "ano": 2026,
+    "motor": "Elétrico 1500W",
+    "cilindrada": "Elétrico",
+    "tracao": "Traseira",
+    "combustivel": "Bateria Elétrica",
+    "cor": "Preto com Detalhes em Laranja",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 15.990,00",
+    "preco_parcelado": "R$ 5.990 + 12x R$ 959 no cartão",
+    "descricao": "Potência que impressiona. Liberdade que inspira! Quadriciclo automático com ré, painel digital em LED, faróis, lanterna e setas em LED, buzina, ideal para todas as idades e com suporte para até 130kg.",
+    "imagens": [
+      "/imagens/quadripreto1500w.png",
+      "/imagens/quadri1500wPeL.jpeg",
+      "/imagens/medidas1500wPeL.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Quadriciclo Rhino 110cc",
+    "marca": "Quadrimotors",
+    "modelo": "Rhino",
+    "ano": 2026,
+    "motor": "4 tempos com ré e partida elétrica",
+    "cilindrada": "110cc",
+    "tracao": "Traseira",
+    "combustivel": "Gasolina",
+    "cor": "A definir",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 12.900,00",
+    "descricao": "Quadriciclo Rhino 110cc, motor de 4 tempos com ré e partida elétrica. Equipado com freios a disco, painel em LED com velocímetro e capacidade de carga para até 100kg. Facilitamos em até R$12.900 a vista ou R$2.900 + 12x959 no cartão. Entre em contato pelo WhatsApp",
+    "imagens": [
+      "/imagens/rhino110cc12900_0.jpg",
+      "/imagens/rhino110cc12900_1.jpg",
+      "/imagens/rhino110cc12900_2.jpg",
+      "/imagens/rhino110cc12900_3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Quadriciclo ATV 250cc Vermelho",
+    "marca": "Buggy & Cia",
+    "modelo": "ATV 250",
+    "ano": 2026,
+    "motor": "4 tempos, partida elétrica",
+    "cilindrada": "250cc",
+    "tracao": "4x2 (Traseira)",
+    "combustivel": "Gasolina",
+    "cor": "Vermelho",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 32.990,00",
+    "descricao": "Quadriciclo 4x2 ATV 250cc, entrega potência na medida certa com injeção eletrônica BOSCH, partida elétrica e câmbio CVT com ré. Equipado com freios a disco de acionamento hidráulico na dianteira e traseira, painel digital, refrigeração a água e capacidade máxima de carga para até 300kg. Resistente, prático e pronto para qualquer tipo de terreno, indicado para o lazer e para o trabalho. Valor de R$ 32.990,00 à vista ou parcelamento em até 12x no cartão de crédito com ótimas condições (consulte taxas). Entre em contato.",
+    "imagens": [
+      "/imagens/dakar250cc_0.png",
+      "/imagens/dakar250cc_1.jpeg",
+      "/imagens/dakar250cc_2.jpeg",
+      "/imagens/medidasdakar250.jpeg"
+    ],
+    "badge": "VENDIDO",
+    "vendido": true
+  },
+  {
+    "id": 7,
+    "nome": "Quadriciclo ATV 200cc Vermelho",
+    "marca": "Fun Motors",
+    "modelo": "ATV 200",
+    "ano": 2026,
+    "motor": "Elétrico, 4 tempos, refrigerado a ar",
+    "cilindrada": "200cc",
+    "tracao": "4x2 (Traseira)",
+    "combustivel": "Gasolina",
+    "cor": "Vermelho",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 25.900,00",
+    "descricao": "Quadriciclo equipado com motor monocilíndrico 4 tempos refrigerado a ar de 117,3cc, potência de 10,20 cv e torque de 11 N.m. Alimentação por carburador, transmissão automática CVT com posições N, R e D e partida elétrica. Atinge velocidade máxima de 60 km/h. Conta com freios hidráulicos a disco, sendo dois discos na dianteira e um disco na traseira. Dimensões de 170 x 105,5 x 109,5 cm (C x L x A). Possui bateria 12V 7Ah, limitador mecânico de velocidade, botão corta-corrente e faróis e lanternas em LED.  Valor de R$ 25.900,00 à vista ou parcelamento em até 12x no cartão de crédito com ótimas condições (consulte taxas). Entre em contato.",
+    "imagens": [
+      "/imagens/quadriciclo117cc_0.jpeg",
+      "/imagens/quadriciclo117cc_1.jpeg",
+      "/imagens/quadriciclo117cc_2.jpeg"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Quadriciclo Vermelho Importado (Usado)",
+    "marca": "Quadrimotors",
+    "modelo": "Importado",
+    "motor": "Automático CVT com ré",
+    "cilindrada": "150cc",
+    "tracao": "4x2 (Traseira)",
+    "combustivel": "Gasolina",
+    "cor": "Vermelho",
+    "quilometragem": "Usado",
+    "estado": "Usado",
+    "preco": "R$ 15.900,00",
+    "descricao": "Quadriciclo vermelho importado Quadrimotors usado, 150cc. Medidas: largura 1,03 m, altura 1,04 m até o guidão, 78 cm até o banco e comprimento 1,75 m. Suporta até 150 kg. Automático com ré (CVT). Com engate. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
+    "imagens": [
+      "/imagens/vermelhoimports_0.jpeg",
+      "/imagens/vermelhoimports_1.jpeg",
+      "/imagens/vermelhoimports_2.jpeg",
+      "/imagens/vermelhoimports_3.jpeg",
+      "/imagens/medidasvermelhoimports.jpeg"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Quadriciclo MXF 125cc Attack",
+    "marca": "Quadrimotors",
+    "modelo": "EFI",
+    "ano": 2026,
+    "motor": "Monocilíndrico com injeção eletrônica",
+    "cilindrada": "INJEÇÃO ELETRÔNICA",
+    "tracao": "4x2 (Traseira)",
+    "combustivel": "Gasolina",
+    "cor": "Preto",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 18.900,00",
+    "descricao": "Quadriciclo Quadrimotors 0 km equipado com sistema de injeção eletrônica, proporcionando maior desempenho e eficiência. Possui transmissão automática com ré, freios a disco nas quatro rodas, painel Full LED, alarme com partida à distância, retrovisores, bagageiros dianteiro e traseiro e estrutura reforçada para uso em diversos tipos de terreno. Desenvolvido para oferecer qualidade premium, tecnologia de ponta e excelente desempenho em aventuras. Condição de pagamento: entrada de R$ 8.900,00 + 12x de R$ 959,00 no cartão.",
+    "imagens": [
+      "/imagens/mxf125ccattack_0.jpeg",
+      "/imagens/mxf125ccattack_1.jpeg",
+      "/imagens/mxf125ccattack_2.jpeg",
+      "/imagens/mxf125ccattack_3.jpeg",
+      "/imagens/medidas125ccattack.jpeg"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Mini Buggy Elétrico 1200W Amarelo",
+    "marca": "Quadrimotors",
+    "modelo": "Shark",
+    "ano": 2026,
+    "motor": "Elétrico 1200W",
+    "cilindrada": "Não se aplica",
+    "tracao": "4x2 (Traseira)",
+    "combustivel": "Elétrico",
+    "cor": "Amarelo",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 12.900,00",
+    "descricao": "UTV Mini Buggy Shark 100% elétrico, ideal para lazer e aventura. Motor elétrico de 1200W, proporcionando maior economia e zero emissões. Transmissão automática com ré elétrica, tração 4x2 e freios a disco. Equipado com pneus de borracha radial, estrutura reforçada para maior segurança e resistência, oferecendo estabilidade e proteção durante o uso. Desenvolvido para proporcionar conforto e excelente desempenho em diferentes terrenos. Suporta crianças de até 80 kg. Medidas não informadas. Condição de pagamento: entrada de R$ 2.990,00 + 12x de R$ 959,00 no cartão.",
+    "imagens": [
+      "/imagens/minibuggyeletrico_0.jpeg",
+      "/imagens/minibuggyeletrico_1.jpeg",
+      "/imagens/minibuggyeletrico_2.jpeg",
+      "/imagens/minibuggyeletrico_3.jpeg",
+      "/imagens/medidasminibuggy.jpeg"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Flash 49",
+    "marca": "Fun Motors",
+    "modelo": "Flash 49",
+    "ano": 2026,
+    "motor": "Monocilíndrico, 2 tempos, refrigerado a ar",
+    "cilindrada": "50 cc",
+    "tracao": "4x2 (2WD)",
+    "combustivel": "Gasolina + Óleo 2 tempos (25:1)",
+    "cor": "Preto com Detalhes Amarelos",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 6.490,00",
+    "descricao": "Mini quadriciclo off-road indicado para crianças de 3 a 6 anos. Possui motor 49cc de 3,5 CV, atingindo até 40 km/h, câmbio automático e transmissão 4x2. Equipado com partida elétrica e mecânica, freios a disco dianteiro e traseiro a cabo, racks dianteiro e traseiro (suporta até 10 kg total) e amortecedores hidráulicos. Para a segurança dos pais e da criança, conta com limitador de velocidade, cordão de segurança e botão corta-corrente. Tanque com capacidade de 1,5L e peso suportado de até 21 kg. Acompanha kit de ferramentas e manual do usuário.",
+    "imagens": [
+      "/imagens/flash49cc_0.jpeg",
+      "/imagens/flash49cc_1.jpeg",
+      "/imagens/flash49cc_2.jpeg",
+      "/imagens/medidaflash49cc.jpeg"
+    ],
+    "badge": "VENDIDO",
+    "vendido": true
+  },
+  {
+    "id": 13,
+    "nome": "Honda CG 160 (Usada)",
+    "marca": "Honda",
+    "modelo": "CG 160",
+    "ano": 2024,
+    "motor": "Monocilíndrico, 4 tempos, OHC, arrefecido a ar",
+    "cilindrada": "162,7 cc",
+    "tracao": "2x1",
+    "combustivel": "Gasolina",
+    "cor": "Cinza",
+    "quilometragem": "56.000 km",
+    "estado": "Usado",
+    "preco": "R$ 15.500,00",
+    "descricao": "Honda CG 160 Start 2024 em excelente estado de conservação. Equipada com motor monocilíndrico de 162,7 cc, partida elétrica, cavalete lateral e carregador 12V. Apenas 56.000 km rodados. Valor de R$ 15.500 à vista ou em até 12x de R$ 1.499 no cartão. Entre em contato pelo WhatsApp",
+    "imagens": [
+      "/imagens/hondacg160_0.png",
+      "/imagens/hondacg160_1.png",
+      "/imagens/hondacg160_2.PNG",
+      "/imagens/hondacg160_3.png"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Carrinho Elétrico Bandeirantes",
+    "marca": "Bandeirantes",
+    "modelo": "Carrinho Elétrico",
+    "ano": 2026,
+    "motor": "2 motores elétricos",
+    "cilindrada": "Elétrico",
+    "tracao": "4x2",
+    "combustivel": "Bateria Elétrica",
+    "cor": "Não informado",
+    "quilometragem": "Pouco uso",
+    "estado": "Usado",
+    "preco": "R$ 1.500,00",
+    "descricao": "Carrinho elétrico Bandeirantes 4x2, equipado com 2 motores elétricos e controle remoto. Possui faróis e lanterna em LED, cinto de segurança de 2 pontas e sistema de som com entrada para pendrive. Indicado para crianças de até 25 kg e 1,10 m de altura. Produto com pouco uso. Valor de R$ 1.500,00 à vista ou em até 12x de R$ 149,00 no cartão de crédito.",
+    "imagens": [
+      "/imagens/carrinhoeletrico_0.png",
+      "/imagens/carrinhoeletrico_1.png",
+      "/imagens/carrinhoeletrico_2.png",
+      "/imagens/carrinhoeletrico_3.jpg"
+    ]
+  }
+ 
+]
