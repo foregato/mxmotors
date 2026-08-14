@@ -354,6 +354,27 @@
       "/imagens/carrinhoeletrico_2.png",
       "/imagens/carrinhoeletrico_3.jpg"
     ]
-  }
- 
+  },
+{
+  "id": 16,
+  "nome": "Quadriciclo ATV Brave 125cc",
+  "marca": "MXF",
+  "modelo": "Brave 125 EFI",
+  "ano": 2026,
+  "motor": "125 cc, 4 tempos, Injeção Eletrônica (EFI)",
+  "cilindrada": "125 cc",
+  "tracao": "4x2",
+  "combustivel": "Gasolina",
+  "cor": "Preto com Detalhes em Verde",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 18.900,00",
+  "descricao": "Quadriciclo Brave 125 EFI ATV, compacto e versátil equipado com motor de 125 cc, 4 tempos, monocilíndrico a gasolina, refrigerado a ar e com injeção eletrônica (EFI). Com velocidade máxima de 55 km/h. Possui transmissão automática F/N/R, movimentação por corrente, tração 4x2 e partida elétrica. Conta com suspensão dianteira com amortecedores duplos independentes, suspensão traseira com amortecedor simples Monoshock, freios dianteiros a tambor e traseiro hidráulico a disco. Possui capacidade de carga de 100 kg, tanque de 2,2 litros e peso a seco de 120 kg. Condição de Pagamento: R$ 18.900,00 à vista ou em até 12x no cartão de crédito. Entre em contato pelo WhatsApp.",
+  "imagens": [
+    "/imagens/brave125efi_0.png",
+    "/imagens/brave125efi_1.png",
+    "/imagens/brave125efi_2.png",
+    "/imagens/brave125efi_3.jpg"
+  ]
+}
 ]
