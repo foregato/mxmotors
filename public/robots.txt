@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+# Bloqueia URLs com parâmetros de busca/filtros para evitar conteúdo duplicado
+Disallow: /*?*
+
+# Sitemaps
 Sitemap: https://quadrimotorsecia.com.br/sitemap.xml
+Sitemap: https://quadrimotorsecia.com.br/llms.txt

@@ -1,5 +1,6 @@
 import { ShieldCheck, Headset, Lock } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { Helmet } from 'react-helmet-async'
 import SEO from '../components/SEO'
 import Hero from '../components/Hero'
 import ProductCard from '../components/ProductCard'
@@ -13,18 +14,58 @@ const diferenciais = [
   { icon: Lock, titulo: 'Compra segura', texto: 'Documentação transparente e negociação sem burocracia.' },
 ]
 
+// Schema em formato JSON-LD do negócio local (Passo 4)
+const schemaLocalBusiness = {
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Quadrimotors & Cia",
+  "url": "https://quadrimotorsecia.com.br",
+  "telephone": "+5519994075246",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Cairi, 213",
+    "addressLocality": "Campinas",
+    "addressRegion": "SP",
+    "postalCode": "13056-210",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -22.9,
+    "longitude": -47.0
+  },
+  "sameAs": [
+    "https://www.instagram.com/quadrimotors/"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ]
+}
+
 export default function Home() {
   // Mostra os 3 últimos quadriciclos cadastrados (últimos itens do JSON)
   const ultimos = [...produtos].slice(-3).reverse()
 
   return (
     <>
-      {/* Adicionamos a otimização de SEO para a Página Inicial */}
+      {/* Otimização de SEO para a Página Inicial */}
       <SEO 
         title="Quadriciclos Novos e Usados em Campinas"
         description="Encontre os melhores quadriciclos novos e usados na Quadrimotors & Cia. Procedência garantida, atendimento especializado e compra segura em Campinas e região."
         canonical="https://quadrimotorsecia.com.br/"
       />
+
+      {/* Injeção dos dados estruturados (Passo 4) via react-helmet-async */}
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(schemaLocalBusiness)}
+        </script>
+      </Helmet>
 
       <Hero />
 

@@ -1,5 +1,6 @@
 import { useParams, useSearchParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { Helmet } from 'react-helmet-async'
 import SEO from '../components/SEO'
 import Carousel from '../components/Carousel'
 import ColorSelector from '../components/ColorSelector'
@@ -58,6 +59,38 @@ export default function Produto() {
   const isVendido = produto.vendido === true || produto.vendido === "true"
   const imagensExibidas = corAtual?.imagens || produto.imagens
 
+  // Trata o preço do produto para o formato numérico do Schema ("12990.00")
+  const precoNumerico = typeof produto.preco === 'string'
+    ? produto.preco.replace(/[^\d,. ]/g, '').replace(/\./g, '').replace(',', '.')
+    : String(produto.preco || '0.00')
+
+  // Schema de Produto (Passo 4 - JSON-LD)
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": produto.nome,
+    "description": produto.descricao || `${produto.nome} (${produto.estado})`,
+    "image": imagensExibidas || [],
+    "sku": String(produto.id),
+    "brand": {
+      "@type": "Brand",
+      "name": produto.marca || "Quadrimotors"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "BRL",
+      "price": precoNumerico,
+      "availability": isVendido 
+        ? "https://schema.org/OutOfStock" 
+        : "https://schema.org/InStock",
+      "url": `https://quadrimotorsecia.com.br/produto/${produto.id}`,
+      "seller": {
+        "@type": "Organization",
+        "name": "Quadrimotors & Cia"
+      }
+    }
+  }
+
   return (
     <>
       {/* SEO Dinâmico: Preenche as tags do Google com os dados deste quadriciclo específico */}
@@ -65,7 +98,16 @@ export default function Produto() {
         title={produto.nome}
         description={`${produto.nome} (${produto.estado}) por ${produto.preco} na Quadrimotors & Cia em Campinas. ${produto.descricao ? produto.descricao.slice(0, 100) : ''}`}
         canonical={`https://quadrimotorsecia.com.br/produto/${produto.id}`}
+        image={imagensExibidas && imagensExibidas.length > 0 ? imagensExibidas[0] : undefined}
+        type="product"
       />
+
+      {/* Injeção dos dados estruturados do produto (Passo 4 - JSON-LD) */}
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(productSchema)}
+        </script>
+      </Helmet>
 
       <section className="container-app pt-32 pb-24">
         <motion.div initial="hidden" animate="show" variants={fadeUp}>

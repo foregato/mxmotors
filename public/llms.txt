@@ -1,0 +1,28 @@
+# Quadrimotors & Cia
+
+> Catálogo digital de quadriciclos novos e seminovos em Campinas/SP. Empresa familiar especializada em veículos off-road, com procedência garantida, atendimento próximo e compra segura.
+
+Quadrimotors & Cia nasceu de uma paixão de pai para filho pelo mundo dos quadriciclos. Referência em novos e seminovos na região de Campinas, oferece máquinas vistoriadas, documentação transparente e atendimento especializado.
+
+Localização: Rua Cairi, 213 - Vila Aeroporto - Campinas, SP  
+Telefone/WhatsApp: (19) 99407-5246  
+Instagram: [@quadrimotors](https://www.instagram.com/quadrimotors/)  
+Site: https://quadrimotorsecia.com.br
+
+## Páginas principais
+
+- [Home](https://quadrimotorsecia.com.br/): Página inicial com destaques, diferenciais e últimos quadriciclos cadastrados
+- [Catálogo](https://quadrimotorsecia.com.br/catalogo): Lista completa de quadriciclos com busca e filtros
+- [Comparador](https://quadrimotorsecia.com.br/comparar): Ferramenta para comparar modelos lado a lado
+- [Sobre](https://quadrimotorsecia.com.br/sobre): História, missão e valores da empresa
+- [Contato](https://quadrimotorsecia.com.br/contato): Telefone, WhatsApp, Instagram, endereço e mapa
+
+## Produtos
+
+- [Página de produto](https://quadrimotorsecia.com.br/produto/:id): Detalhes, fotos, especificações técnicas e botão de interesse via WhatsApp (substitua :id pelo ID do produto)
+
+## Contato e atendimento
+
+- WhatsApp oficial: https://wa.me/5519994075246
+- Telefone: +55 19 99407-5246
+- Endereço: Rua Cairi, 213 - Vila Aeroporto - Campinas, SP
