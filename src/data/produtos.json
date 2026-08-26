@@ -378,5 +378,29 @@
       "/imagens/Eletricos/motoeletrica_4.png"
     
     ]
+  },
+  {
+    "id": 15,
+    "nome": "Triciclo Elétrica 600w",
+    "marca": "-",
+    "modelo": "Zyon MU04",
+    "ano": 2026,
+    "motor": "Elétrico",
+    "cilindrada": "600w",
+    "tracao": "Traseira",
+    "combustivel": "Elétrico",
+    "cor": "Branco",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 7.999,00",
+    "descricao": "O Triciclo Elétrico Zyon MU04 600W combina praticidade, conforto e estabilidade para facilitar a mobilidade no dia a dia, sendo uma excelente opção para deslocamentos urbanos e lazer. Equipado com motor de 600W, oferece bom desempenho e condução estável graças às três rodas, proporcionando mais segurança e equilíbrio. Seu design funcional alia conforto e facilidade de uso, tornando o modelo ideal para quem busca uma alternativa de transporte elétrica, econômica e moderna. Entre em contato pelo WhatsApp",
+    "imagens": [
+      "/imagens/Eletricos/triciclo_0.png",
+      "/imagens/Eletricos/triciclo_1.png",
+      "/imagens/Eletricos/triciclo_2.png",
+      "/imagens/Eletricos/triciclo_3.png",
+      "/imagens/Eletricos/triciclo_4.png"
+    
+    ]
   }
 ]
