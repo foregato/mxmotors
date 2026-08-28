@@ -213,7 +213,7 @@ function CabecalhoProduto({ produto, onTrocar }) {
         alt={produto.nome}
         className="w-full aspect-[4/3] object-cover rounded-xl"
       />
-      <Link to={`/produto/${produto.id}`} className="font-semibold mt-4 hover:text-accent transition duration-300 line-clamp-2">
+      <Link to={`/produto/${produto.slug}`} className="font-semibold mt-4 hover:text-accent transition duration-300 line-clamp-2">
         {produto.nome}
       </Link>
       <p className="text-accent font-bold text-lg md:text-xl mt-1">{produto.preco}</p>
