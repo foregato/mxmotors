@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "slug": "mini-moto-125cc",
     "nome": "Mini Moto 125cc 12x Sem Juros",
     "marca": "Quadrimotors",
     "modelo": "Mini Moto 125cc",
@@ -41,8 +42,9 @@
       }
     ]
   },
-   {
+  {
     "id": 2,
+    "slug": "quadriciclo-125cc",
     "nome": "Quadriciclo 125cc",
     "marca": "Quadrimotors",
     "modelo": "125cc",
@@ -87,6 +89,7 @@
   },
   {
     "id": 3,
+    "slug": "quadriciclo-infantil-eletrico-1000w",
     "nome": "Quadriciclo Infantil Elétrico 1000W",
     "marca": "Quadrimotors",
     "modelo": "Infantil 1000W",
@@ -132,6 +135,7 @@
   },
   {
     "id": 4,
+    "slug": "quadriciclo-eletrico-1500w",
     "nome": "Quadriciclo Elétrico 1500W",
     "marca": "Quadrimotors",
     "modelo": "1500W",
@@ -154,6 +158,7 @@
   },
   {
     "id": 5,
+    "slug": "quadriciclo-rhino-110cc",
     "nome": "Quadriciclo Rhino 110cc",
     "marca": "Quadrimotors",
     "modelo": "Rhino",
@@ -176,6 +181,7 @@
   },
   {
     "id": 6,
+    "slug": "dakar-250cc",
     "nome": "Quadriciclo ATV 250cc Vermelho",
     "marca": "Buggy & Cia",
     "modelo": "ATV 250",
@@ -200,6 +206,7 @@
   },
   {
     "id": 7,
+    "slug": "quadriciclo-atv-200cc",
     "nome": "Quadriciclo ATV 200cc Vermelho",
     "marca": "Fun Motors",
     "modelo": "ATV 200",
@@ -221,6 +228,7 @@
   },
   {
     "id": 8,
+    "slug": "quadriciclo-importado-usado",
     "nome": "Quadriciclo Vermelho Importado (Usado)",
     "marca": "Quadrimotors",
     "modelo": "Importado",
@@ -243,6 +251,7 @@
   },
   {
     "id": 9,
+    "slug": "mxf-125cc-attack",
     "nome": "Quadriciclo MXF 125cc Attack",
     "marca": "Quadrimotors",
     "modelo": "EFI",
@@ -266,6 +275,7 @@
   },
   {
     "id": 10,
+    "slug": "mini-buggy-eletrico-1200w",
     "nome": "Mini Buggy Elétrico 1200W Amarelo",
     "marca": "Quadrimotors",
     "modelo": "Shark",
@@ -289,6 +299,7 @@
   },
   {
     "id": 11,
+    "slug": "flash-49",
     "nome": "Flash 49",
     "marca": "Fun Motors",
     "modelo": "Flash 49",
@@ -313,6 +324,7 @@
   },
   {
     "id": 12,
+    "slug": "honda-cg-160-usada",
     "nome": "Honda CG 160 (Usada)",
     "marca": "Honda",
     "modelo": "CG 160",
@@ -333,30 +345,32 @@
       "/imagens/hondacg160_3.png"
     ]
   },
-{
-  "id": 13,
-  "nome": "Quadriciclo ATV Brave 125cc",
-  "marca": "MXF",
-  "modelo": "Brave 125 EFI",
-  "ano": 2026,
-  "motor": "125 cc, 4 tempos, Injeção Eletrônica (EFI)",
-  "cilindrada": "125 cc",
-  "tracao": "4x2",
-  "combustivel": "Gasolina",
-  "cor": "Preto com Detalhes em Verde",
-  "quilometragem": "0 km",
-  "estado": "Novo",
-  "preco": "R$ 18.900,00",
-  "descricao": "Quadriciclo Brave 125 EFI ATV, compacto e versátil equipado com motor de 125 cc, 4 tempos, monocilíndrico a gasolina, refrigerado a ar e com injeção eletrônica (EFI). Com velocidade máxima de 55 km/h. Possui transmissão automática F/N/R, movimentação por corrente, tração 4x2 e partida elétrica. Conta com suspensão dianteira com amortecedores duplos independentes, suspensão traseira com amortecedor simples Monoshock, freios dianteiros a tambor e traseiro hidráulico a disco. Possui capacidade de carga de 100 kg, tanque de 2,2 litros e peso a seco de 120 kg. Condição de Pagamento: R$ 18.900,00 à vista ou em até 12x no cartão de crédito. Entre em contato pelo WhatsApp.",
-  "imagens": [
-    "/imagens/125ccverde_0.png",
-    "/imagens/125ccverde_1.png",
-    "/imagens/125ccverde_2.png",
-    "/imagens/125ccverde_3.jpg"
-  ]
-},
-{
+  {
+    "id": 13,
+    "slug": "quadriciclo-brave-125cc",
+    "nome": "Quadriciclo ATV Brave 125cc",
+    "marca": "MXF",
+    "modelo": "Brave 125 EFI",
+    "ano": 2026,
+    "motor": "125 cc, 4 tempos, Injeção Eletrônica (EFI)",
+    "cilindrada": "125 cc",
+    "tracao": "4x2",
+    "combustivel": "Gasolina",
+    "cor": "Preto com Detalhes em Verde",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 18.900,00",
+    "descricao": "Quadriciclo Brave 125 EFI ATV, compacto e versátil equipado com motor de 125 cc, 4 tempos, monocilíndrico a gasolina, refrigerado a ar e com injeção eletrônica (EFI). Com velocidade máxima de 55 km/h. Possui transmissão automática F/N/R, movimentação por corrente, tração 4x2 e partida elétrica. Conta com suspensão dianteira com amortecedores duplos independentes, suspensão traseira com amortecedor simples Monoshock, freios dianteiros a tambor e traseiro hidráulico a disco. Possui capacidade de carga de 100 kg, tanque de 2,2 litros e peso a seco de 120 kg. Condição de Pagamento: R$ 18.900,00 à vista ou em até 12x no cartão de crédito. Entre em contato pelo WhatsApp.",
+    "imagens": [
+      "/imagens/125ccverde_0.png",
+      "/imagens/125ccverde_1.png",
+      "/imagens/125ccverde_2.png",
+      "/imagens/125ccverde_3.jpg"
+    ]
+  },
+  {
     "id": 14,
+    "slug": "moto-eletrica-1000w",
     "nome": "Moto Elétrica 1000w",
     "marca": "-",
     "modelo": "V20 Pro",
@@ -376,11 +390,11 @@
       "/imagens/Eletricos/motoeletrica_2.png",
       "/imagens/Eletricos/motoeletrica_3.png",
       "/imagens/Eletricos/motoeletrica_4.png"
-    
     ]
   },
   {
     "id": 15,
+    "slug": "triciclo-eletrico-600w",
     "nome": "Triciclo Elétrica 600w",
     "marca": "-",
     "modelo": "Zyon MU04",
@@ -400,7 +414,6 @@
       "/imagens/Eletricos/triciclo_2.png",
       "/imagens/Eletricos/triciclo_3.png",
       "/imagens/Eletricos/triciclo_4.png"
-    
     ]
   }
 ]
