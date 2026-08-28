@@ -22,8 +22,8 @@ export default function ProductCard({ produto }) {
   // Link de detalhes carrega a cor escolhida no card via query string,
   // para a página de produto abrir já na cor certa.
   const linkDetalhes = temCores
-    ? `/produto/${produto.id}?cor=${encodeURIComponent(corAtual.nome)}`
-    : `/produto/${produto.id}`
+    ? `/produto/${produto.slug}?cor=${encodeURIComponent(corAtual.nome)}`
+    : `/produto/${produto.slug}`
 
   return (
     <motion.div
