@@ -28,92 +28,80 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Produtos (um por ID) -->
+  <!-- Produtos (um por slug) -->
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/1</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <!-- ... repetir para 2, 3, 4... até o último -->
-  <url>
-    <loc>https://quadrimotorsecia.com.br/produto/1</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/mini-moto-125cc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/2</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/quadriciclo-125cc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/3</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/quadriciclo-infantil-eletrico-1000w</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/4</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/quadriciclo-eletrico-1500w</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/5</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/quadriciclo-rhino-110cc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/6</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/dakar-250cc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/7</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/quadriciclo-atv-200cc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/8</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/quadriciclo-importado-usado</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/9</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/mxf-125cc-attack</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/10</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/mini-buggy-eletrico-1200w</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/11</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/flash-49</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/12</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/honda-cg-160-usada</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/13</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/quadriciclo-brave-125cc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/14</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/moto-eletrica-1000w</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quadrimotorsecia.com.br/produto/15</loc>
+    <loc>https://quadrimotorsecia.com.br/produto/triciclo-eletrico-600w</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://quadrimotorsecia.com.br/produto/16</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
 </urlset>
