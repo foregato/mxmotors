@@ -1,4 +1,4 @@
-import { useParams, useSearchParams, Link } from 'react-router-dom'
+import { useParams, useSearchParams, Link, Navigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
 import SEO from '../components/SEO'
@@ -17,9 +17,25 @@ const fadeUp = {
 }
 
 export default function Produto() {
-  const { id } = useParams()
-  const produto = produtos.find((p) => String(p.id) === id)
+  const { slug } = useParams()
+  const produto = produtos.find((p) => p.slug === slug)
   const [searchParams, setSearchParams] = useSearchParams()
+
+  // Compatibilidade com URLs antigas (ex.: /produto/6): se o parâmetro da URL
+  // não bater com nenhum slug, mas bater com o id numérico de um produto,
+  // redireciona para a URL amigável correspondente preservando a query string.
+  if (!produto) {
+    const produtoPorId = produtos.find((p) => String(p.id) === slug)
+    if (produtoPorId) {
+      const query = searchParams.toString()
+      return (
+        <Navigate
+          to={`/produto/${produtoPorId.slug}${query ? `?${query}` : ''}`}
+          replace
+        />
+      )
+    }
+  }
 
   const temCores = Array.isArray(produto?.cores) && produto.cores.length > 1
 
@@ -83,7 +99,7 @@ export default function Produto() {
       "availability": isVendido 
         ? "https://schema.org/OutOfStock" 
         : "https://schema.org/InStock",
-      "url": `https://quadrimotorsecia.com.br/produto/${produto.id}`,
+      "url": `https://quadrimotorsecia.com.br/produto/${produto.slug}`,
       "seller": {
         "@type": "Organization",
         "name": "Quadrimotors & Cia"
@@ -97,7 +113,7 @@ export default function Produto() {
       <SEO 
         title={produto.nome}
         description={`${produto.nome} (${produto.estado}) por ${produto.preco} na Quadrimotors & Cia em Campinas. ${produto.descricao ? produto.descricao.slice(0, 100) : ''}`}
-        canonical={`https://quadrimotorsecia.com.br/produto/${produto.id}`}
+        canonical={`https://quadrimotorsecia.com.br/produto/${produto.slug}`}
         image={imagensExibidas && imagensExibidas.length > 0 ? imagensExibidas[0] : undefined}
         type="product"
       />
