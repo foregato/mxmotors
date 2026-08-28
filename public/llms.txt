@@ -19,7 +19,7 @@ Site: https://quadrimotorsecia.com.br
 
 ## Produtos
 
-- [Página de produto](https://quadrimotorsecia.com.br/produto/:id): Detalhes, fotos, especificações técnicas e botão de interesse via WhatsApp (substitua :id pelo ID do produto)
+- [Página de produto](https://quadrimotorsecia.com.br/produto/:slug): Detalhes, fotos, especificações técnicas e botão de interesse via WhatsApp (substitua :slug pela URL amigável do produto, ex.: dakar-250cc)
 
 ## Contato e atendimento
 
