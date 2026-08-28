@@ -28,7 +28,9 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/catalogo" element={<Catalogo />} />
             <Route path="/produto" element={<Produto />} />
-            <Route path="/produto/:id" element={<Produto />} />
+            {/* :slug também recebe o id numérico antigo (ex.: /produto/6) —
+                a página de Produto detecta e redireciona para o slug correto. */}
+            <Route path="/produto/:slug" element={<Produto />} />
             <Route path="/comparar" element={<Comparador />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/contato" element={<Contato />} />
