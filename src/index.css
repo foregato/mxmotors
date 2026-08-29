@@ -5,6 +5,10 @@
 /* Estilos globais do site */
 html {
   scroll-behavior: smooth;
+  /* Permite rolagem vertical normal, mas bloqueia o gesto de pinça (zoom) na página.
+     O visualizador de imagem em tela cheia sobrescreve isso localmente (touch-action: none)
+     para implementar seu próprio pinch-to-zoom controlado via JS. */
+  touch-action: pan-y;
 }
 
 body {
