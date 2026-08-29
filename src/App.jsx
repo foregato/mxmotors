@@ -5,6 +5,7 @@ import { HelmetProvider } from 'react-helmet-async'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import CookieBanner from './components/CookieBanner'
+import ScrollToTop from './components/ScrollToTop'
 
 // Importação das páginas
 import Home from './pages/Home'
@@ -19,6 +20,9 @@ export default function App() {
     /* 1. O HelmetProvider abraça TODO o aplicativo */
     <HelmetProvider>
       <div className="min-h-screen flex flex-col bg-bgdark">
+        {/* Rola para o topo a cada troca de rota (ex.: ProductCard -> /produto/:slug) */}
+        <ScrollToTop />
+
         {/* 2. O Navbar fica fixo no topo de todas as páginas */}
         <Navbar />
 
