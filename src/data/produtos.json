@@ -18,8 +18,8 @@
     "parcelaPromo": "12x R$ 999,00",
     "descricao": "Mini Moto 125cc modelo infanto-juvenil, ideal para crianças e adolescentes. Equipada com partida elétrica e pedal de partida (manual), motor 4 tempos semi-automático, freio a disco duplo, suspensão dianteira invertida e suspensão traseira Prolink roscado, proporcionando mais conforto e estabilidade. Atinge velocidade de até 60 km/h e suporta pilotos de até 100 kg. Condição especial: R$ 12.990,00 ou em até 12x sem juros no cartão.",
     "imagens": [
-      "/imagens/brancoverdemoto_0.jpeg",
-      "/imagens/medidabrancoverde.jpeg"
+      "/imagens/brancoverdemoto_0.jpg",
+      "/imagens/medidabrancoverde.jpg"
     ],
     "badge": "Oportunidade",
     "cores": [
@@ -27,17 +27,17 @@
         "nome": "Branco e Verde",
         "hex": "#EDEDED",
         "imagens": [
-          "/imagens/brancoverdemoto_0.jpeg",
-          "/imagens/medidabrancoverde.jpeg"
+          "/imagens/brancoverdemoto_0.jpg",
+          "/imagens/medidabrancoverde.jpg"
         ]
       },
       {
         "nome": "Preto com Vermelho e Verde",
         "hex": "#1A1A1A",
         "imagens": [
-          "/imagens/minimoto125vermelho_0.jpeg",
-          "/imagens/minimoto125vermelho_1.jpeg",
-          "/imagens/medidasminimoto125vermelho.jpeg"
+          "/imagens/minimoto125vermelho_0.jpg",
+          "/imagens/minimoto125vermelho_1.jpg",
+          "/imagens/medidasminimoto125vermelho.jpg"
         ]
       }
     ]
@@ -59,9 +59,9 @@
     "preco": "R$ 12.900,00",
     "descricao": "Quadriciclo 125cc, equipado com motor de 4 tempos, refrigerado a ar com partida elétrica, câmbio automático com ré e acelerador tipo gatilho. Possui transmissão por corrente, tração 4x2 traseira, suspensão dianteira independente com bandeja dupla e suspensão traseira independente com monoshock. Conta com freios dianteiros a tambor duplo e traseiro a disco, chassi tubular em aço, ignição eletrônica CDI e bateria 12V 6,5Ah. Velocidade máxima de até 70 km/h. Valor de R$ 12.900,00 à vista ou em até 12x no cartão de crédito. Entre em contato pelo WhatsApp.",
     "imagens": [
-      "/imagens/verde125cc_0.png",
-      "/imagens/verde125cc_1.png",
-      "/imagens/verde125cc_2.png",
+      "/imagens/verde125cc_0.jpg",
+      "/imagens/verde125cc_1.jpg",
+      "/imagens/verde125cc_2.jpg",
       "/imagens/verde125cc_3.jpg"
     ],
     "cores": [
@@ -69,9 +69,9 @@
         "nome": "Verde",
         "hex": "#2F6B3A",
         "imagens": [
-          "/imagens/verde125cc_0.png",
-          "/imagens/verde125cc_1.png",
-          "/imagens/verde125cc_2.png",
+          "/imagens/verde125cc_0.jpg",
+          "/imagens/verde125cc_1.jpg",
+          "/imagens/verde125cc_2.jpg",
           "/imagens/verde125cc_3.jpg"
         ]
       },
@@ -79,10 +79,10 @@
         "nome": "Vermelho",
         "hex": "#B31F1F",
         "imagens": [
-          "/imagens/vermelho125cc_0.png",
-          "/imagens/vermelho125cc_1.png",
-          "/imagens/vermelho125cc_2.png",
-          "/imagens/vermelho125cc_3.png"
+          "/imagens/vermelho125cc_0.jpg",
+          "/imagens/vermelho125cc_1.jpg",
+          "/imagens/vermelho125cc_2.jpg",
+          "/imagens/vermelho125cc_3.jpg"
         ]
       }
     ]
@@ -104,31 +104,31 @@
     "preco": "R$ 6.490,00",
     "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
     "imagens": [
-      "/imagens/quadrivermelho1000w.png",
-      "/imagens/frentevermelho.png"
+      "/imagens/quadrivermelho1000w.jpg",
+      "/imagens/frentevermelho.jpg"
     ],
     "cores": [
       {
         "nome": "Vermelho",
         "hex": "#C41E1E",
         "imagens": [
-          "/imagens/quadrivermelho1000w.png",
-          "/imagens/frentevermelho.png"
+          "/imagens/quadrivermelho1000w.jpg",
+          "/imagens/frentevermelho.jpg"
         ]
       },
       {
         "nome": "Branco",
         "hex": "#EDEDED",
         "imagens": [
-          "/imagens/quadribranco1000w.png"
+          "/imagens/quadribranco1000w.jpg"
         ]
       },
       {
         "nome": "Preto com Detalhes em Verde",
         "hex": "#1A1A1A",
         "imagens": [
-          "/imagens/quadri1000w6490.jpeg",
-          "/imagens/quadri1000w6490_2.png"
+          "/imagens/quadri1000w6490.jpg",
+          "/imagens/quadri1000w6490_2.jpg"
         ]
       }
     ]
@@ -151,9 +151,9 @@
     "preco_parcelado": "R$ 5.990 + 12x R$ 959 no cartão",
     "descricao": "Potência que impressiona. Liberdade que inspira! Quadriciclo automático com ré, painel digital em LED, faróis, lanterna e setas em LED, buzina, ideal para todas as idades e com suporte para até 130kg.",
     "imagens": [
-      "/imagens/quadripreto1500w.png",
-      "/imagens/quadri1500wPeL.jpeg",
-      "/imagens/medidas1500wPeL.jpeg"
+      "/imagens/quadripreto1500w.jpg",
+      "/imagens/quadri1500wPeL.jpg",
+      "/imagens/medidas1500wPeL.jpg"
     ]
   },
   {
@@ -196,10 +196,10 @@
     "preco": "R$ 32.990,00",
     "descricao": "Quadriciclo 4x2 ATV 250cc, entrega potência na medida certa com injeção eletrônica BOSCH, partida elétrica e câmbio CVT com ré. Equipado com freios a disco de acionamento hidráulico na dianteira e traseira, painel digital, refrigeração a água e capacidade máxima de carga para até 300kg. Resistente, prático e pronto para qualquer tipo de terreno, indicado para o lazer e para o trabalho. Valor de R$ 32.990,00 à vista ou parcelamento em até 12x no cartão de crédito com ótimas condições (consulte taxas). Entre em contato.",
     "imagens": [
-      "/imagens/dakar250cc_0.png",
-      "/imagens/dakar250cc_1.jpeg",
-      "/imagens/dakar250cc_2.jpeg",
-      "/imagens/medidasdakar250.jpeg"
+      "/imagens/dakar250cc_0.jpg",
+      "/imagens/dakar250cc_1.jpg",
+      "/imagens/dakar250cc_2.jpg",
+      "/imagens/medidasdakar250.jpg"
     ],
     "badge": "VENDIDO",
     "vendido": true
@@ -221,9 +221,9 @@
     "preco": "R$ 25.900,00",
     "descricao": "Quadriciclo equipado com motor monocilíndrico 4 tempos refrigerado a ar de 117,3cc, potência de 10,20 cv e torque de 11 N.m. Alimentação por carburador, transmissão automática CVT com posições N, R e D e partida elétrica. Atinge velocidade máxima de 60 km/h. Conta com freios hidráulicos a disco, sendo dois discos na dianteira e um disco na traseira. Dimensões de 170 x 105,5 x 109,5 cm (C x L x A). Possui bateria 12V 7Ah, limitador mecânico de velocidade, botão corta-corrente e faróis e lanternas em LED.  Valor de R$ 25.900,00 à vista ou parcelamento em até 12x no cartão de crédito com ótimas condições (consulte taxas). Entre em contato.",
     "imagens": [
-      "/imagens/quadriciclo117cc_0.jpeg",
-      "/imagens/quadriciclo117cc_1.jpeg",
-      "/imagens/quadriciclo117cc_2.jpeg"
+      "/imagens/quadriciclo117cc_0.jpg",
+      "/imagens/quadriciclo117cc_1.jpg",
+      "/imagens/quadriciclo117cc_2.jpg"
     ]
   },
   {
@@ -242,11 +242,11 @@
     "preco": "R$ 15.900,00",
     "descricao": "Quadriciclo vermelho importado Quadrimotors usado, 150cc. Medidas: largura 1,03 m, altura 1,04 m até o guidão, 78 cm até o banco e comprimento 1,75 m. Suporta até 150 kg. Automático com ré (CVT). Com engate. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
     "imagens": [
-      "/imagens/vermelhoimports_0.jpeg",
-      "/imagens/vermelhoimports_1.jpeg",
-      "/imagens/vermelhoimports_2.jpeg",
-      "/imagens/vermelhoimports_3.jpeg",
-      "/imagens/medidasvermelhoimports.jpeg"
+      "/imagens/vermelhoimports_0.jpg",
+      "/imagens/vermelhoimports_1.jpg",
+      "/imagens/vermelhoimports_2.jpg",
+      "/imagens/vermelhoimports_3.jpg",
+      "/imagens/medidasvermelhoimports.jpg"
     ]
   },
   {
@@ -266,11 +266,11 @@
     "preco": "R$ 18.900,00",
     "descricao": "Quadriciclo Quadrimotors 0 km equipado com sistema de injeção eletrônica, proporcionando maior desempenho e eficiência. Possui transmissão automática com ré, freios a disco nas quatro rodas, painel Full LED, alarme com partida à distância, retrovisores, bagageiros dianteiro e traseiro e estrutura reforçada para uso em diversos tipos de terreno. Desenvolvido para oferecer qualidade premium, tecnologia de ponta e excelente desempenho em aventuras. Condição de pagamento: entrada de R$ 8.900,00 + 12x de R$ 959,00 no cartão.",
     "imagens": [
-      "/imagens/mxf125ccattack_0.jpeg",
-      "/imagens/mxf125ccattack_1.jpeg",
-      "/imagens/mxf125ccattack_2.jpeg",
-      "/imagens/mxf125ccattack_3.jpeg",
-      "/imagens/medidas125ccattack.jpeg"
+      "/imagens/mxf125ccattack_0.jpg",
+      "/imagens/mxf125ccattack_1.jpg",
+      "/imagens/mxf125ccattack_2.jpg",
+      "/imagens/mxf125ccattack_3.jpg",
+      "/imagens/medidas125ccattack.jpg"
     ]
   },
   {
@@ -290,11 +290,11 @@
     "preco": "R$ 12.900,00",
     "descricao": "UTV Mini Buggy Shark 100% elétrico, ideal para lazer e aventura. Motor elétrico de 1200W, proporcionando maior economia e zero emissões. Transmissão automática com ré elétrica, tração 4x2 e freios a disco. Equipado com pneus de borracha radial, estrutura reforçada para maior segurança e resistência, oferecendo estabilidade e proteção durante o uso. Desenvolvido para proporcionar conforto e excelente desempenho em diferentes terrenos. Suporta crianças de até 80 kg. Medidas não informadas. Condição de pagamento: entrada de R$ 2.990,00 + 12x de R$ 959,00 no cartão.",
     "imagens": [
-      "/imagens/minibuggyeletrico_0.jpeg",
-      "/imagens/minibuggyeletrico_1.jpeg",
-      "/imagens/minibuggyeletrico_2.jpeg",
-      "/imagens/minibuggyeletrico_3.jpeg",
-      "/imagens/medidasminibuggy.jpeg"
+      "/imagens/minibuggyeletrico_0.jpg",
+      "/imagens/minibuggyeletrico_1.jpg",
+      "/imagens/minibuggyeletrico_2.jpg",
+      "/imagens/minibuggyeletrico_3.jpg",
+      "/imagens/medidaminibuggy.jpg"
     ]
   },
   {
@@ -314,10 +314,10 @@
     "preco": "R$ 6.490,00",
     "descricao": "Mini quadriciclo off-road indicado para crianças de 3 a 6 anos. Possui motor 49cc de 3,5 CV, atingindo até 40 km/h, câmbio automático e transmissão 4x2. Equipado com partida elétrica e mecânica, freios a disco dianteiro e traseiro a cabo, racks dianteiro e traseiro (suporta até 10 kg total) e amortecedores hidráulicos. Para a segurança dos pais e da criança, conta com limitador de velocidade, cordão de segurança e botão corta-corrente. Tanque com capacidade de 1,5L e peso suportado de até 21 kg. Acompanha kit de ferramentas e manual do usuário.",
     "imagens": [
-      "/imagens/flash49cc_0.jpeg",
-      "/imagens/flash49cc_1.jpeg",
-      "/imagens/flash49cc_2.jpeg",
-      "/imagens/medidaflash49cc.jpeg"
+      "/imagens/flash49cc_0.jpg",
+      "/imagens/flash49cc_1.jpg",
+      "/imagens/flash49cc_2.jpg",
+      "/imagens/medidaflash49cc.jpg"
     ],
     "badge": "VENDIDO",
     "vendido": true
@@ -339,10 +339,10 @@
     "preco": "R$ 15.500,00",
     "descricao": "Honda CG 160 Start 2024 em excelente estado de conservação. Equipada com motor monocilíndrico de 162,7 cc, partida elétrica, cavalete lateral e carregador 12V. Apenas 56.000 km rodados. Valor de R$ 15.500 à vista ou em até 12x de R$ 1.499 no cartão. Entre em contato pelo WhatsApp",
     "imagens": [
-      "/imagens/hondacg160_0.png",
-      "/imagens/hondacg160_1.png",
-      "/imagens/hondacg160_2.PNG",
-      "/imagens/hondacg160_3.png"
+      "/imagens/hondacg160_0.jpg",
+      "/imagens/hondacg160_1.jpg",
+      "/imagens/hondacg160_2.jpg",
+      "/imagens/hondacg160_3.jpg"
     ]
   },
   {
@@ -362,9 +362,9 @@
     "preco": "R$ 18.900,00",
     "descricao": "Quadriciclo Brave 125 EFI ATV, compacto e versátil equipado com motor de 125 cc, 4 tempos, monocilíndrico a gasolina, refrigerado a ar e com injeção eletrônica (EFI). Com velocidade máxima de 55 km/h. Possui transmissão automática F/N/R, movimentação por corrente, tração 4x2 e partida elétrica. Conta com suspensão dianteira com amortecedores duplos independentes, suspensão traseira com amortecedor simples Monoshock, freios dianteiros a tambor e traseiro hidráulico a disco. Possui capacidade de carga de 100 kg, tanque de 2,2 litros e peso a seco de 120 kg. Condição de Pagamento: R$ 18.900,00 à vista ou em até 12x no cartão de crédito. Entre em contato pelo WhatsApp.",
     "imagens": [
-      "/imagens/125ccverde_0.png",
-      "/imagens/125ccverde_1.png",
-      "/imagens/125ccverde_2.png",
+      "/imagens/125ccverde_0.jpg",
+      "/imagens/125ccverde_1.jpg",
+      "/imagens/125ccverde_2.jpg",
       "/imagens/125ccverde_3.jpg"
     ]
   },
@@ -385,11 +385,11 @@
     "preco": "R$ 7.999,00",
     "descricao": "A Bicicleta Elétrica V20 PRO 1000W combina potência, conforto e tecnologia para mobilidade urbana. Possui motor de 1000W, velocidade de até 32 km/h e autonomia de 32 a 50 km. Conta com suspensão e freios hidráulicos duplos, pneus fat 20x4, bateria de lítio 15,6Ah e suporta até 150 kg. Também oferece display LCD colorido, iluminação LED com seta, piloto automático, chave NFC, alarme e cadeado integrado, garantindo praticidade, segurança e ótimo desempenho. Entre em contato pelo WhatsApp",
     "imagens": [
-      "/imagens/Eletricos/motoeletrica_0.png",
-      "/imagens/Eletricos/motoeletrica_1.png",
-      "/imagens/Eletricos/motoeletrica_2.png",
-      "/imagens/Eletricos/motoeletrica_3.png",
-      "/imagens/Eletricos/motoeletrica_4.png"
+      "/imagens/Eletricos/motoeletrica_0.jpg",
+      "/imagens/Eletricos/motoeletrica_1.jpg",
+      "/imagens/Eletricos/motoeletrica_2.jpg",
+      "/imagens/Eletricos/motoeletrica_3.jpg",
+      "/imagens/Eletricos/motoeletrica_4.jpg"
     ]
   },
   {
@@ -409,11 +409,11 @@
     "preco": "R$ 7.999,00",
     "descricao": "O Triciclo Elétrico Zyon MU04 600W combina praticidade, conforto e estabilidade para facilitar a mobilidade no dia a dia, sendo uma excelente opção para deslocamentos urbanos e lazer. Equipado com motor de 600W, oferece bom desempenho e condução estável graças às três rodas, proporcionando mais segurança e equilíbrio. Seu design funcional alia conforto e facilidade de uso, tornando o modelo ideal para quem busca uma alternativa de transporte elétrica, econômica e moderna. Entre em contato pelo WhatsApp",
     "imagens": [
-      "/imagens/Eletricos/triciclo_0.png",
-      "/imagens/Eletricos/triciclo_1.png",
-      "/imagens/Eletricos/triciclo_2.png",
-      "/imagens/Eletricos/triciclo_3.png",
-      "/imagens/Eletricos/triciclo_4.png"
+      "/imagens/Eletricos/triciclo_0.jpg",
+      "/imagens/Eletricos/triciclo_1.jpg",
+      "/imagens/Eletricos/triciclo_2.jpg",
+      "/imagens/Eletricos/triciclo_3.jpg",
+      "/imagens/Eletricos/triciclo_4.jpg"
     ]
   }
 ]

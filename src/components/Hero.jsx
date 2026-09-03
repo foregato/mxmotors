@@ -31,7 +31,7 @@ export default function Hero() {
     <section ref={ref} className="relative h-[100svh] min-h-[640px] w-full flex items-end overflow-hidden">
       {/* Foto de fundo do quadriciclo */}
       <motion.img
-        src="/fundos/fundoprincipal.png"
+        src="/fundos/fundoprincipal.jpg"
         alt="Quadriciclo em trilha de aventura"
         fetchpriority="high"
         decoding="async"

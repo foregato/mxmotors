@@ -63,6 +63,7 @@ export default function Produto() {
         <SEO 
           title="Produto não encontrado" 
           description="O quadriciclo procurado não foi encontrado em nosso catálogo."
+          noindex
         />
         <section className="container-app pt-32 pb-20 text-center">
           <h1 className="text-2xl font-bold mb-4">Quadriciclo não encontrado</h1>
@@ -80,13 +81,20 @@ export default function Produto() {
     ? produto.preco.replace(/[^\d,. ]/g, '').replace(/\./g, '').replace(',', '.')
     : String(produto.preco || '0.00')
 
+  // URLs absolutas exigidas pelo schema.org/Product (imagens relativas não
+  // são resolvidas corretamente pelo Google Rich Results Test).
+  const SITE_URL = 'https://quadrimotorsecia.com.br'
+  const imagensAbsolutas = (imagensExibidas || []).map((img) =>
+    img.startsWith('http') ? img : `${SITE_URL}${img}`
+  )
+
   // Schema de Produto (Passo 4 - JSON-LD)
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": produto.nome,
     "description": produto.descricao || `${produto.nome} (${produto.estado})`,
-    "image": imagensExibidas || [],
+    "image": imagensAbsolutas,
     "sku": String(produto.id),
     "brand": {
       "@type": "Brand",
@@ -107,14 +115,26 @@ export default function Produto() {
     }
   }
 
+  // Breadcrumb (Home > Catálogo > Produto) — reforça a arquitetura do site
+  // para o Google e pode gerar o "rich snippet" de trilha nos resultados.
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Início", "item": SITE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Catálogo", "item": `${SITE_URL}/catalogo` },
+      { "@type": "ListItem", "position": 3, "name": produto.nome, "item": `${SITE_URL}/produto/${produto.slug}` },
+    ]
+  }
+
   return (
     <>
       {/* SEO Dinâmico: Preenche as tags do Google com os dados deste quadriciclo específico */}
       <SEO 
         title={produto.nome}
         description={`${produto.nome} (${produto.estado}) por ${produto.preco} na Quadrimotors & Cia em Campinas. ${produto.descricao ? produto.descricao.slice(0, 100) : ''}`}
-        canonical={`https://quadrimotorsecia.com.br/produto/${produto.slug}`}
-        image={imagensExibidas && imagensExibidas.length > 0 ? imagensExibidas[0] : undefined}
+        canonical={`${SITE_URL}/produto/${produto.slug}`}
+        image={imagensAbsolutas[0]}
         type="product"
       />
 
@@ -123,11 +143,14 @@ export default function Produto() {
         <script type="application/ld+json">
           {JSON.stringify(productSchema)}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
       </Helmet>
 
       <section className="container-app pt-32 pb-24">
         <motion.div initial="hidden" animate="show" variants={fadeUp}>
-          <Carousel key={corSelecionada || produto.id} imagens={imagensExibidas} />
+          <Carousel key={corSelecionada || produto.id} imagens={imagensExibidas} nomeProduto={produto.nome} />
         </motion.div>
 
         <motion.div

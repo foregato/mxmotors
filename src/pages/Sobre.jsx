@@ -29,8 +29,8 @@ export default function Sobre() {
           initial={{ opacity: 0, scale: 1.03 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          src="/fundos/fundoprincipal.png"
-          alt="Fachada da Quadrimotors & Cia"
+          src="/fundos/fundoprincipal.jpg"
+          alt="Quadriciclo Quadrimotors & Cia em trilha de aventura"
           className="w-full aspect-video object-cover rounded-2xl border border-white/[0.06]"
         />
 

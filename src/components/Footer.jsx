@@ -11,7 +11,7 @@ export default function Footer() {
         <img src={logo} alt="Quadrimotors & Cia" className="h-20 opacity-90" />
 
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-secondary text-sm">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition duration-300">
+          <a href="https://www.instagram.com/quadrimotors/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition duration-300">
             <Instagram size={18} /> @quadrimotors
           </a>
           <a href="tel:+5519994075246" className="flex items-center gap-2 hover:text-accent transition duration-300">
