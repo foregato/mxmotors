@@ -1,3 +1,4 @@
+import { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 
@@ -7,13 +8,15 @@ import Footer from './components/Footer'
 import CookieBanner from './components/CookieBanner'
 import ScrollToTop from './components/ScrollToTop'
 
-// Importação das páginas
-import Home from './pages/Home'
-import Catalogo from './pages/Catalogo'
-import Produto from './pages/Produto'
-import Sobre from './pages/Sobre'
-import Contato from './pages/Contato'
-import Comparador from './pages/Comparador'
+// Importação das páginas via lazy loading: cada página só é baixada quando
+// o usuário navega até ela, reduzindo o tamanho do pacote JS inicial e
+// acelerando o primeiro carregamento (especialmente na Home).
+const Home = lazy(() => import('./pages/Home'))
+const Catalogo = lazy(() => import('./pages/Catalogo'))
+const Produto = lazy(() => import('./pages/Produto'))
+const Sobre = lazy(() => import('./pages/Sobre'))
+const Contato = lazy(() => import('./pages/Contato'))
+const Comparador = lazy(() => import('./pages/Comparador'))
 
 export default function App() {
   return (
@@ -28,17 +31,19 @@ export default function App() {
 
         {/* 3. O <main> guarda o conteúdo que muda dependendo do link */}
         <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/catalogo" element={<Catalogo />} />
-            <Route path="/produto" element={<Produto />} />
-            {/* :slug também recebe o id numérico antigo (ex.: /produto/6) —
-                a página de Produto detecta e redireciona para o slug correto. */}
-            <Route path="/produto/:slug" element={<Produto />} />
-            <Route path="/comparar" element={<Comparador />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/contato" element={<Contato />} />
-          </Routes>
+          <Suspense fallback={null}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/catalogo" element={<Catalogo />} />
+              <Route path="/produto" element={<Produto />} />
+              {/* :slug também recebe o id numérico antigo (ex.: /produto/6) —
+                  a página de Produto detecta e redireciona para o slug correto. */}
+              <Route path="/produto/:slug" element={<Produto />} />
+              <Route path="/comparar" element={<Comparador />} />
+              <Route path="/sobre" element={<Sobre />} />
+              <Route path="/contato" element={<Contato />} />
+            </Routes>
+          </Suspense>
         </main>
 
         {/* 4. O Footer fica fixo no rodapé de todas as páginas */}

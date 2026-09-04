@@ -50,8 +50,8 @@
     "modelo": "125cc",
     "ano": 2026,
     "motor": "4 tempos, refrigerado a ar, OHC",
-    "cilindrada": "125 cc",
-    "tracao": "4x2 traseira",
+    "cilindrada": "125cc",
+    "tracao": "4x2 (Traseira)",
     "combustivel": "Gasolina",
     "cor": "Verde",
     "quilometragem": "0 km",
@@ -158,7 +158,7 @@
   },
     {
     "id": 5,
-    "slug": "ATV-250cc",
+    "slug": "atv-250cc",
     "nome": "Quadriciclo ATV 250cc Vermelho",
     "marca": "Buggy & Cia",
     "modelo": "ATV 250",
@@ -201,46 +201,44 @@
       }
     ]
   },
-{
-  "id": 6,
-  "slug": "quadriciclo-rhino-110cc",
-  "nome": "Quadriciclo Rhino 110cc",
-  "marca": "Quadrimotors",
-  "modelo": "Rhino",
-  "ano": 2026,
-  "motor": "4 tempos com ré e partida elétrica",
-  "cilndrada": "110cc",
-  "tracao": "Traseira",
-  "combustivel": "Gasolina",
-  "cor": "A definir",
-  "quilometragem": "0 km",
-  "estado": "Novo",
-  "preco": "R$ 12.900,00",
-  "descricao": "Quadriciclo Rhino 110cc, motor de 4 tempos com ré e partida elétrica. Equipado com freios a disco, painel em LED com velocímetro e capacidade de carga para até 100kg. Facilitamos em até R$12.900 a vista ou R$2.900 + 12x959 no cartão. Entre em contato pelo WhatsApp",
-  "imagens": [
-    "/imagens/rhino110ccPreto_0.jpg",
-    "/imagens/rhino110ccPreto_1.jpg",
-    "/imagens/rhino110ccPreto_2.jpg",
-    "/imagens/rhino110ccPreto_3.jpg"
-  ],
-
-  "cores": [
-    {
-      "nome": "Branco",
-      "hex": "#FFFFFF",
-      "imagens": [
-        "/imagens/rhinobranco_0.jpg",
-        "/imagens/rhinobranco_1.jpg",
-        "/imagens/rhinobranco_2.jpg",
-        "/imagens/rhinobranco_3.jpg",
-        "/imagens/rhinobranco_4.jpg",
-        "/imagens/rhinobranco_5.jpg",
-        "/imagens/rhinobranco_6.jpg"
-      ]
-    }
-  ]
-},
- 
+  {
+    "id": 6,
+    "slug": "quadriciclo-110cc",
+    "nome": "Quadriciclo 110cc",
+    "marca": "Quadrimotors",
+    "modelo": "110cc",
+    "ano": 2026,
+    "motor": "4 tempos com ré e partida elétrica",
+    "cilindrada": "110cc",
+    "tracao": "Traseira",
+    "combustivel": "Gasolina",
+    "cor": "A definir",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 12.900,00",
+    "descricao": "Quadriciclo 110cc, motor de 4 tempos com ré e partida elétrica. Equipado com freios a disco, painel em LED com velocímetro e capacidade de carga para até 100kg. Facilitamos em até R$12.900 a vista ou R$2.900 + 12x959 no cartão. Entre em contato pelo WhatsApp.",
+    "imagens": [
+      "/imagens/rhino110ccPreto_0.jpg",
+      "/imagens/rhino110ccPreto_1.jpg",
+      "/imagens/rhino110ccPreto_2.jpg",
+      "/imagens/rhino110ccPreto_3.jpg"
+    ],
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#FFFFFF",
+        "imagens": [
+          "/imagens/rhinobranco_0.jpg",
+          "/imagens/rhinobranco_1.jpg",
+          "/imagens/rhinobranco_2.jpg",
+          "/imagens/rhinobranco_3.jpg",
+          "/imagens/rhinobranco_4.jpg",
+          "/imagens/rhinobranco_5.jpg",
+          "/imagens/rhinobranco_6.jpg"
+        ]
+      }
+    ]
+  },
   {
     "id": 7,
     "slug": "quadriciclo-atv-200cc",
@@ -269,12 +267,13 @@
     "nome": "Quadriciclo Vermelho Importado (Usado)",
     "marca": "Quadrimotors",
     "modelo": "Importado",
+    "ano": "Não informado",
     "motor": "Automático CVT com ré",
     "cilindrada": "150cc",
     "tracao": "4x2 (Traseira)",
     "combustivel": "Gasolina",
     "cor": "Vermelho",
-    "quilometragem": "Usado",
+    "quilometragem": "Não informada",
     "estado": "Usado",
     "preco": "R$ 15.900,00",
     "descricao": "Quadriciclo vermelho importado Quadrimotors usado, 150cc. Medidas: largura 1,03 m, altura 1,04 m até o guidão, 78 cm até o banco e comprimento 1,75 m. Suporta até 150 kg. Automático com ré (CVT). Com engate. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
@@ -288,13 +287,13 @@
   },
   {
     "id": 9,
-    "slug": "mxf-125cc-attack",
-    "nome": "Quadriciclo MXF 125cc Attack",
+    "slug": "mxf-125cc",
+    "nome": "Quadriciclo MXF 125cc",
     "marca": "Quadrimotors",
     "modelo": "EFI",
     "ano": 2026,
     "motor": "Monocilíndrico com injeção eletrônica",
-    "cilindrada": "INJEÇÃO ELETRÔNICA",
+    "cilindrada": "125cc",
     "tracao": "4x2 (Traseira)",
     "combustivel": "Gasolina",
     "cor": "Preto",
@@ -318,7 +317,7 @@
     "modelo": "Shark",
     "ano": 2026,
     "motor": "Elétrico 1200W",
-    "cilindrada": "Não se aplica",
+    "cilindrada": "Elétrico",
     "tracao": "4x2 (Traseira)",
     "combustivel": "Elétrico",
     "cor": "Amarelo",
@@ -342,7 +341,7 @@
     "modelo": "Flash 49",
     "ano": 2026,
     "motor": "Monocilíndrico, 2 tempos, refrigerado a ar",
-    "cilindrada": "50 cc",
+    "cilindrada": "50cc",
     "tracao": "4x2 (2WD)",
     "combustivel": "Gasolina + Óleo 2 tempos (25:1)",
     "cor": "Preto com Detalhes Amarelos",
@@ -390,7 +389,7 @@
     "modelo": "Brave 125 EFI",
     "ano": 2026,
     "motor": "125 cc, 4 tempos, Injeção Eletrônica (EFI)",
-    "cilindrada": "125 cc",
+    "cilindrada": "125cc",
     "tracao": "4x2",
     "combustivel": "Gasolina",
     "cor": "Preto com Detalhes em Verde",
@@ -454,47 +453,47 @@
     ]
   },
   {
-  "id": 16,
-  "slug": "mxf-attack-200-efi",
-  "nome": "Quadriciclo Attack 200 EFI",
-  "marca": "MXF",
-  "modelo": "Attack 200 EFI",
-  "ano": 2026,
-  "motor": "200cc Injeção Eletrônica EFI",
-  "cilindrada": "200cc",
-  "tracao": "2x1",
-  "combustivel": "Gasolina",
-  "cor": "Preto e Branco",
-  "quilometragem": "0 km",
-  "estado": "Novo",
-  "preco": "29.990,00",
-  "precoAntigo": "R$ 31.900,00",
-  "descricao": "Novo nível da linha Attack! O Attack 200 EFI combina potência, tecnologia e versatilidade em um quadriciclo robusto, equipado com injeção eletrônica EFI, painel TFT, câmbio automático CVT, faróis em LED, DRL e freios a disco hidráulicos. Com motor de 200cc, 13,8 cv de potência e capacidade de carga de até 150 kg, é ideal para lazer, aventuras e trabalhos em propriedades rurais. Entre em contato para saber mais e consultar as condições.",
-  "imagens": [
-    "/imagens/attack200_0.jpg",
-    "/imagens/attack200_1.jpg",
-    "/imagens/attack200_2.jpg",
-    "/imagens/attack200_3.jpg"
-  ],
-  "cores": [
-    {
-      "nome": "Preto",
-      "hex": "#000000",
-      "imagens": [
-        "/imagens/attack200preto_0.jpg",
-        "/imagens/attack200preto_1.jpg",
-        "/imagens/attack200preto_2.jpg"
-      ]
-    },
-    {
-      "nome": "Branco",
-      "hex": "#FFFFFF",
-      "imagens": [
-        "/imagens/attack200branco_0.jpg",
-        "/imagens/attack200branco_1.jpg",
-        "/imagens/attack200branco_2.jpg"
-      ]
-    }
-  ]
-}
-  ]
+    "id": 16,
+    "slug": "mxf-200-efi",
+    "nome": "Quadriciclo MXF 200 EFI",
+    "marca": "MXF",
+    "modelo": "200 EFI",
+    "ano": 2026,
+    "motor": "200cc Injeção Eletrônica EFI",
+    "cilindrada": "200cc",
+    "tracao": "2x1",
+    "combustivel": "Gasolina",
+    "cor": "Preto e Branco",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 29.990,00",
+    "precoAntigo": "R$ 31.900,00",
+    "descricao": "Novo nível da linha MXF! O 200 EFI combina potência, tecnologia e versatilidade em um quadriciclo robusto, equipado com injeção eletrônica EFI, painel TFT, câmbio automático CVT, faróis em LED, DRL e freios a disco hidráulicos. Com motor de 200cc, 13,8 cv de potência e capacidade de carga de até 150 kg, é ideal para lazer, aventuras e trabalhos em propriedades rurais. Entre em contato para saber mais e consultar as condições.",
+    "imagens": [
+      "/imagens/attack200_0.jpg",
+      "/imagens/attack200_1.jpg",
+      "/imagens/attack200_2.jpg",
+      "/imagens/attack200_3.jpg"
+    ],
+    "cores": [
+      {
+        "nome": "Preto",
+        "hex": "#000000",
+        "imagens": [
+          "/imagens/attack200preto_0.jpg",
+          "/imagens/attack200preto_1.jpg",
+          "/imagens/attack200preto_2.jpg"
+        ]
+      },
+      {
+        "nome": "Branco",
+        "hex": "#FFFFFF",
+        "imagens": [
+          "/imagens/attack200branco_0.jpg",
+          "/imagens/attack200branco_1.jpg",
+          "/imagens/attack200branco_2.jpg"
+        ]
+      }
+    ]
+  }
+]
