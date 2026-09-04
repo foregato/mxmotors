@@ -156,32 +156,9 @@
       "/imagens/medidas1500wPeL.jpg"
     ]
   },
-  {
+    {
     "id": 5,
-    "slug": "quadriciclo-rhino-110cc",
-    "nome": "Quadriciclo Rhino 110cc",
-    "marca": "Quadrimotors",
-    "modelo": "Rhino",
-    "ano": 2026,
-    "motor": "4 tempos com ré e partida elétrica",
-    "cilindrada": "110cc",
-    "tracao": "Traseira",
-    "combustivel": "Gasolina",
-    "cor": "A definir",
-    "quilometragem": "0 km",
-    "estado": "Novo",
-    "preco": "R$ 12.900,00",
-    "descricao": "Quadriciclo Rhino 110cc, motor de 4 tempos com ré e partida elétrica. Equipado com freios a disco, painel em LED com velocímetro e capacidade de carga para até 100kg. Facilitamos em até R$12.900 a vista ou R$2.900 + 12x959 no cartão. Entre em contato pelo WhatsApp",
-    "imagens": [
-      "/imagens/rhino110cc12900_0.jpg",
-      "/imagens/rhino110cc12900_1.jpg",
-      "/imagens/rhino110cc12900_2.jpg",
-      "/imagens/rhino110cc12900_3.jpg"
-    ]
-  },
-  {
-    "id": 6,
-    "slug": "dakar-250cc",
+    "slug": "ATV-250cc",
     "nome": "Quadriciclo ATV 250cc Vermelho",
     "marca": "Buggy & Cia",
     "modelo": "ATV 250",
@@ -201,9 +178,68 @@
       "/imagens/dakar250cc_2.jpg",
       "/imagens/medidasdakar250.jpg"
     ],
-    "badge": "VENDIDO",
-    "vendido": true
+    "cores": [
+      {
+        "nome": "Azul",
+        "hex": "#191970",
+        "imagens": [
+          "/imagens/dakar250azul_0.jpg",
+          "/imagens/dakar250ccazul_1.jpg",
+          "/imagens/dakar250ccazul_2.jpg"
+        ]
+      },     
+      {
+        "nome": "Vermelho",
+        "hex": "#B31F1F",
+        "imagens": [
+          "/imagens/dakar250cc_0.jpg",
+          "/imagens/dakar250cc_1.jpg",
+          "/imagens/dakar250cc_2.jpg",
+          "/imagens/medidasdakar250.jpg"
+        ]
+      }
+    ]
   },
+{
+  "id": 6,
+  "slug": "quadriciclo-rhino-110cc",
+  "nome": "Quadriciclo Rhino 110cc",
+  "marca": "Quadrimotors",
+  "modelo": "Rhino",
+  "ano": 2026,
+  "motor": "4 tempos com ré e partida elétrica",
+  "cilndrada": "110cc",
+  "tracao": "Traseira",
+  "combustivel": "Gasolina",
+  "cor": "A definir",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 12.900,00",
+  "descricao": "Quadriciclo Rhino 110cc, motor de 4 tempos com ré e partida elétrica. Equipado com freios a disco, painel em LED com velocímetro e capacidade de carga para até 100kg. Facilitamos em até R$12.900 a vista ou R$2.900 + 12x959 no cartão. Entre em contato pelo WhatsApp",
+  "imagens": [
+    "/imagens/rhino110ccPreto_0.jpg",
+    "/imagens/rhino110ccPreto_1.jpg",
+    "/imagens/rhino110ccPreto_2.jpg",
+    "/imagens/rhino110ccPreto_3.jpg"
+  ],
+
+  "cores": [
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "imagens": [
+        "/imagens/rhinobranco_0.jpg",
+        "/imagens/rhinobranco_1.jpg",
+        "/imagens/rhinobranco_2.jpg",
+        "/imagens/rhinobranco_3.jpg",
+        "/imagens/rhinobranco_4.jpg",
+        "/imagens/rhinobranco_5.jpg",
+        "/imagens/rhinobranco_6.jpg"
+      ]
+    }
+  ]
+},
+ 
   {
     "id": 7,
     "slug": "quadriciclo-atv-200cc",
@@ -415,5 +451,48 @@
       "/imagens/Eletricos/triciclo_3.jpg",
       "/imagens/Eletricos/triciclo_4.jpg"
     ]
-  }
-]
+  },
+  {
+  "id": 16,
+  "slug": "mxf-attack-200-efi",
+  "nome": "Quadriciclo MXF Attack 200 EFI",
+  "marca": "MXF",
+  "modelo": "Attack 200 EFI",
+  "ano": 2026,
+  "motor": "200cc - 4 tempos - monocilíndrico a gasolina",
+  "cilindrada": "200cc",
+  "tracao": "2x1",
+  "combustivel": "Gasolina",
+  "cor": "Preto e Branco",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "Consulte",
+  "descricao": "Novo nível da linha Attack! O Attack 200 EFI combina potência, tecnologia e versatilidade em um quadriciclo robusto, equipado com injeção eletrônica EFI, painel TFT, câmbio automático CVT, faróis em LED, DRL e freios a disco hidráulicos. Com motor de 200cc, 13,8 cv de potência e capacidade de carga de até 150 kg, é ideal para lazer, aventuras e trabalhos em propriedades rurais. Entre em contato para saber mais e consultar as condições.",
+  "imagens": [
+    "/imagens/attack200_0.jpg",
+    "/imagens/attack200_1.jpg",
+    "/imagens/attack200_2.jpg",
+    "/imagens/attack200_3.jpg"
+  ],
+  "cores": [
+    {
+      "nome": "Preto",
+      "hex": "#000000",
+      "imagens": [
+        "/imagens/attack200preto_0.jpg",
+        "/imagens/attack200preto_1.jpg",
+        "/imagens/attack200preto_2.jpg"
+      ]
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "imagens": [
+        "/imagens/attack200branco_0.jpg",
+        "/imagens/attack200branco_1.jpg",
+        "/imagens/attack200branco_2.jpg"
+      ]
+    }
+  ]
+}
+  ]
