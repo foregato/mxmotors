@@ -48,7 +48,7 @@ export default function ProductCard({ produto }) {
           )}
           {produto.parcelaPromo && (
             <span className="bg-bgdark/90 text-accent border border-accent/40 text-xs font-bold tracking-wide px-4 py-1.5 rounded-full shadow-md">
-              {produto.parcelaPromo}
+              {produto.parcelaPromo} sem juros
             </span>
           )}
         </div>
@@ -58,7 +58,7 @@ export default function ProductCard({ produto }) {
       <Link to={linkDetalhes} className="block overflow-hidden">
         <img
           src={imagemAtual}
-          alt={temCores ? `${produto.nome} - ${corAtual.nome}` : produto.nome}
+          alt={temCores ? `${produto.displayName} - ${corAtual.nome}` : produto.displayName}
           loading="lazy"
           decoding="async"
           width={400}
@@ -69,7 +69,7 @@ export default function ProductCard({ produto }) {
       </Link>
 
       <div className="p-6 flex flex-col gap-2 flex-1">
-        <h3 className="font-semibold text-lg leading-snug tracking-tight">{produto.nome}</h3>
+        <h3 className="font-semibold text-lg leading-snug tracking-tight">{produto.displayName}</h3>
 
         <div className="flex items-center gap-3 text-sm text-secondary/90">
           <span>{produto.ano}</span>

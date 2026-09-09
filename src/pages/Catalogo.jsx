@@ -23,8 +23,8 @@ export default function Catalogo() {
   // Filtra os produtos com base na busca + todos os filtros
   const produtosFiltrados = useMemo(() => {
     return produtos.filter((p) => {
-      // 1. Busca por nome
-      const nomeCombina = p.nome.toLowerCase().includes(busca.toLowerCase())
+      // 1. Busca por nome comercial (o mesmo nome exibido no card)
+      const nomeCombina = p.displayName.toLowerCase().includes(busca.toLowerCase())
 
       // 2. Filtros por atributos exatos (só entram na comparação quando selecionados)
       const cilindradaCombina = cilindrada ? p.cilindrada === cilindrada : true

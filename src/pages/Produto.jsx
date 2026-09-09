@@ -7,7 +7,7 @@ import ColorSelector from '../components/ColorSelector'
 import ButtonWhatsapp from '../components/ButtonWhatsapp'
 import SimuladorCompra from '../components/SimuladorCompra'
 import produtos from '../data/produtos.json'
-import especificacoes from '../data/especificacoes'
+import especificacoes, { getValorExibicao } from '../data/especificacoes'
 
 // Entrada suave e escalonada para os blocos da página — reforça a leitura
 // em camadas (imagem → título/preço → specs → descrição → CTA).
@@ -92,8 +92,8 @@ export default function Produto() {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": produto.nome,
-    "description": produto.descricao || `${produto.nome} (${produto.estado})`,
+    "name": produto.displayName,
+    "description": produto.descricao || `${produto.displayName} (${produto.estado})`,
     "image": imagensAbsolutas,
     "sku": String(produto.id),
     "brand": {
@@ -123,7 +123,7 @@ export default function Produto() {
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Início", "item": SITE_URL },
       { "@type": "ListItem", "position": 2, "name": "Catálogo", "item": `${SITE_URL}/catalogo` },
-      { "@type": "ListItem", "position": 3, "name": produto.nome, "item": `${SITE_URL}/produto/${produto.slug}` },
+      { "@type": "ListItem", "position": 3, "name": produto.displayName, "item": `${SITE_URL}/produto/${produto.slug}` },
     ]
   }
 
@@ -131,8 +131,8 @@ export default function Produto() {
     <>
       {/* SEO Dinâmico: Preenche as tags do Google com os dados deste quadriciclo específico */}
       <SEO 
-        title={produto.nome}
-        description={`${produto.nome} (${produto.estado}) por ${produto.preco} na Quadrimotors & Cia em Campinas. ${produto.descricao ? produto.descricao.slice(0, 100) : ''}`}
+        title={produto.displayName}
+        description={`${produto.displayName} (${produto.estado}) por ${produto.preco} na Quadrimotors & Cia em Campinas. ${produto.descricao ? produto.descricao.slice(0, 100) : ''}`}
         canonical={`${SITE_URL}/produto/${produto.slug}`}
         image={imagensAbsolutas[0]}
         type="product"
@@ -150,7 +150,7 @@ export default function Produto() {
 
       <section className="container-app pt-32 pb-24">
         <motion.div initial="hidden" animate="show" variants={fadeUp}>
-          <Carousel key={corSelecionada || produto.id} imagens={imagensExibidas} nomeProduto={produto.nome} />
+          <Carousel key={corSelecionada || produto.id} imagens={imagensExibidas} nomeProduto={produto.displayName} />
         </motion.div>
 
         <motion.div
@@ -158,7 +158,7 @@ export default function Produto() {
           className="mt-10 flex flex-col md:flex-row md:items-start md:justify-between gap-4"
         >
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tightest2">{produto.nome}</h1>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tightest2">{produto.displayName}</h1>
             
             <div className="flex items-center gap-3 mt-3">
               <span className={`inline-block text-xs font-semibold px-3 py-1.5 rounded-full
@@ -191,6 +191,9 @@ export default function Produto() {
               <p className="text-secondary/60 text-lg line-through">{produto.precoAntigo}</p>
             )}
             <p className="text-accent font-extrabold text-3xl md:text-4xl tracking-tight">{produto.preco}</p>
+            {produto.parcelaPromo && (
+              <p className="text-accent/90 text-sm font-semibold mt-1">{produto.parcelaPromo} sem juros</p>
+            )}
           </div>
         </motion.div>
 
@@ -216,7 +219,7 @@ export default function Produto() {
             <div key={chave}>
               <p className="text-secondary text-xs uppercase tracking-[0.15em]">{label}</p>
               <p className="font-medium mt-1.5">
-                {chave === 'cor' && temCores ? corSelecionada : produto[chave]}
+                {getValorExibicao(produto, chave, temCores ? corSelecionada : null)}
               </p>
             </div>
           ))}
@@ -241,7 +244,7 @@ export default function Produto() {
         {/* Botões de interesse e comparação */}
         <div className="mt-12 flex flex-col sm:flex-row gap-4">
           <ButtonWhatsapp
-            mensagem={`Olá, tenho interesse no ${produto.nome}${temCores ? ` na cor ${corSelecionada}` : ''} ${isVendido ? '(já foi vendido - quero solicitar uma unidade similar)' : ''}`}
+            mensagem={`Olá, tenho interesse no ${produto.displayName}${temCores ? ` na cor ${corSelecionada}` : ''} ${isVendido ? '(já foi vendido - quero solicitar uma unidade similar)' : ''}`}
             texto={isVendido ? "Solicitar Unidade Similar" : "Tenho Interesse"}
             className="btn-primary w-full sm:w-auto text-lg py-5 px-10"
           />

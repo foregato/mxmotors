@@ -5,7 +5,7 @@ import { ArrowLeftRight, X, ArrowLeft } from 'lucide-react'
 import SEO from '../components/SEO'
 import ButtonWhatsapp from '../components/ButtonWhatsapp'
 import produtos from '../data/produtos.json'
-import especificacoes from '../data/especificacoes'
+import especificacoes, { getValorExibicao } from '../data/especificacoes'
 import { getImagemComparador } from '../data/comparadorImagens'
 
 // Campos extras (fora da tabela de especificações padrão) que também
@@ -100,12 +100,12 @@ function SeletorSlot({ titulo, produtoSelecionado, excluirId, onSelecionar }) {
       <div className="card p-6 flex items-center gap-4">
         <img
           src={getImagemComparador(produtoSelecionado)}
-          alt={produtoSelecionado.nome}
+          alt={produtoSelecionado.displayName}
           className="w-24 h-24 rounded-xl object-cover shrink-0"
         />
         <div className="flex-1 min-w-0">
           <p className="text-secondary text-xs uppercase tracking-[0.15em]">{titulo}</p>
-          <p className="font-semibold truncate">{produtoSelecionado.nome}</p>
+          <p className="font-semibold truncate">{produtoSelecionado.displayName}</p>
           <p className="text-accent font-bold mt-1">{produtoSelecionado.preco}</p>
         </div>
         <button
@@ -131,7 +131,7 @@ function SeletorSlot({ titulo, produtoSelecionado, excluirId, onSelecionar }) {
       >
         <option value="">Selecione um quadriciclo...</option>
         {opcoes.map((p) => (
-          <option key={p.id} value={p.id}>{p.nome} — {p.preco}</option>
+          <option key={p.id} value={p.id}>{p.displayName} — {p.preco}</option>
         ))}
       </select>
     </div>
@@ -142,7 +142,7 @@ function SeletorSlot({ titulo, produtoSelecionado, excluirId, onSelecionar }) {
 function ComparacaoCompleta({ produtoA, produtoB, onTrocarA, onTrocarB }) {
   const linhas = [...especificacoes, ...camposExtras]
 
-  const whatsappMensagem = `Olá, estou comparando o ${produtoA.nome} com o ${produtoB.nome} e gostaria de mais informações.`
+  const whatsappMensagem = `Olá, estou comparando o ${produtoA.displayName} com o ${produtoB.displayName} e gostaria de mais informações.`
 
   return (
     <motion.div
@@ -161,8 +161,8 @@ function ComparacaoCompleta({ produtoA, produtoB, onTrocarA, onTrocarB }) {
         <table className="w-full min-w-[480px] text-sm">
           <tbody>
             {linhas.map(({ label, chave }, i) => {
-              const valorA = produtoA[chave] ?? '—'
-              const valorB = produtoB[chave] ?? '—'
+              const valorA = getValorExibicao(produtoA, chave) ?? '—'
+              const valorB = getValorExibicao(produtoB, chave) ?? '—'
               const diferente = String(valorA) !== String(valorB)
 
               return (
@@ -210,11 +210,11 @@ function CabecalhoProduto({ produto, onTrocar }) {
       )}
       <img
         src={getImagemComparador(produto)}
-        alt={produto.nome}
+        alt={produto.displayName}
         className="w-full aspect-[4/3] object-cover rounded-xl"
       />
       <Link to={`/produto/${produto.slug}`} className="font-semibold mt-4 hover:text-accent transition duration-300 line-clamp-2">
-        {produto.nome}
+        {produto.displayName}
       </Link>
       <p className="text-accent font-bold text-lg md:text-xl mt-1">{produto.preco}</p>
 
