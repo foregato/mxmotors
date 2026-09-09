@@ -5,26 +5,25 @@ import { converterPrecoParaNumero, formatarMoeda } from '../utils/preco'
 // Limite máximo de parcelas permitido no simulador (regra de negócio: nunca 13x ou mais).
 const MAX_PARCELAS = 12
 
-// Taxa de juros usada na simulação: 1% ao mês (juros compostos, sistema Price).
-const TAXA_MENSAL = 0.01
+// Taxa anual usada na simulação: 12,3% (proveniente de 1% ao mês).
+// Fator = 100 - 12,3 = 87,7 → 0.877
+const FATOR_JUROS = 0.877
 
-// Calcula a parcela e o total financiado usando o sistema de amortização
-// Price (parcelas fixas), com juros compostos de 1% ao mês:
-// parcela = saldo * i / (1 - (1 + i) ^ -n)
-// total do saldo financiado = parcela * n
+// Calcula o total e a parcela com a regra simplificada:
+// total do saldo = saldo / 0.877
+// parcela = total / n
 function calcularSimulacao(saldo, n) {
   if (saldo <= 0 || n <= 0) {
     return { valorParcela: 0, totalSaldo: 0 }
   }
-  const i = TAXA_MENSAL
-  const valorParcela = (saldo * i) / (1 - Math.pow(1 + i, -n))
-  const totalSaldo = valorParcela * n
+  const totalSaldo = saldo / FATOR_JUROS
+  const valorParcela = totalSaldo / n
   return { valorParcela, totalSaldo }
 }
 
 // Simulação estimada de compra/preço para a página do produto.
 // Não representa uma condição real de financiamento - estimativa com taxa
-// de 1% ao mês (juros compostos), limitada a no máximo 12x.
+// de 12,3% ao ano, limitada a no máximo 12x.
 export default function SimuladorCompra({ preco }) {
   const precoNum = converterPrecoParaNumero(preco)
 
@@ -121,7 +120,7 @@ export default function SimuladorCompra({ preco }) {
       </div>
 
       <p className="text-secondary/70 text-xs mt-6">
-        *Simulação estimada com juros de 1% ao mês, parcelamento em até 12x.
+        *Simulação estimada com taxa de 12,3% ao ano (1% ao mês), parcelamento em até 12x.
         As condições reais de pagamento podem variar - consulte nossa equipe pelo WhatsApp para confirmar valores.
       </p>
     </div>
