@@ -159,7 +159,7 @@
     {
     "id": 5,
     "slug": "atv-250cc",
-    "nome": "Quadriciclo ATV 250cc Vermelho",
+    "nome": "Quadriciclo ATV 250cc",
     "marca": "Buggy & Cia",
     "modelo": "ATV 250",
     "ano": 2026,
@@ -171,7 +171,6 @@
     "quilometragem": "0 km",
     "estado": "Novo",
     "preco": "R$ 32.990,00",
-    "precoAntigo": "R$ 34.900,00",
     "descricao": "Quadriciclo 4x2 ATV 250cc, entrega potência na medida certa com injeção eletrônica BOSCH, partida elétrica e câmbio CVT com ré. Equipado com freios a disco de acionamento hidráulico na dianteira e traseira, painel digital, refrigeração a água e capacidade máxima de carga para até 300kg. Resistente, prático e pronto para qualquer tipo de terreno, indicado para o lazer e para o trabalho. Valor de R$ 32.990,00 à vista ou parcelamento em até 12x no cartão de crédito com ótimas condições (consulte taxas). Entre em contato.",
     "imagens": [
       "/imagens/dakar250cc_0.jpg",
@@ -185,8 +184,8 @@
         "hex": "#191970",
         "imagens": [
           "/imagens/dakar250azul_0.jpg",
-          "/imagens/dakar250ccazul_1.jpg",
-          "/imagens/dakar250ccazul_2.jpg"
+          "/imagens/dakar250azul_1.jpg",
+          "/imagens/dakar250azul_2.jpg"
         ]
       },     
       {
@@ -288,7 +287,7 @@
   {
     "id": 9,
     "slug": "mxf-125cc",
-    "nome": "Quadriciclo MXF 125cc",
+    "nome": "Quadriciclo 125cc",
     "marca": "Quadrimotors",
     "modelo": "EFI",
     "ano": 2026,
@@ -383,10 +382,10 @@
   },
   {
     "id": 13,
-    "slug": "quadriciclo-brave-125cc",
-    "nome": "Quadriciclo ATV Brave 125cc",
-    "marca": "MXF",
-    "modelo": "Brave 125 EFI",
+    "slug": "quadriciclo-atv-efi-125cc",
+    "nome": "Quadriciclo ATV EFI 125cc",
+    "marca": "Quadrimotors",
+    "modelo": "125 EFI",
     "ano": 2026,
     "motor": "125 cc, 4 tempos, Injeção Eletrônica (EFI)",
     "cilindrada": "125cc",
@@ -454,9 +453,9 @@
   },
   {
     "id": 16,
-    "slug": "mxf-200-efi",
-    "nome": "Quadriciclo MXF 200 EFI",
-    "marca": "MXF",
+    "slug": "atv-200-efi",
+    "nome": "Quadriciclo ATV 200 EFI",
+    "marca": "Quadrimotors",
     "modelo": "200 EFI",
     "ano": 2026,
     "motor": "200cc Injeção Eletrônica EFI",
